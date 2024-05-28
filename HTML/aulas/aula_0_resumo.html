@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESUMO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!--
+        HTML é uma linguagem de marcação, não de lógica!
+
+        Nós escrevemos elementos que são conhecidos como Tags:
+        1. passo:
+        <> </>
+
+        2. passo:
+        <tag> </tag> obs: tag não existe
+
+        3. passo:
+        <h1> </h1>  tag de Título
+
+        Toda tag possui propriedade
+
+        <h1> -> Tag de abertura
+        </h1> -> Tag de fechamento
+
+        as prorpriedades são colocadas dentro da Tag de abertura
+        <h1 id="titulo">Nome da Empresa</h1>
+
+    -->
+
+
+    <button id="botao" onclick="alertar()" class="estiloDoMeuBotao" name="meuBotao" type="button">Click Aqui!</button>
+
+
+
+
+
+
+
+
+    <script>
+        const btn = document.getElementById('botao');
+
+        function alertar() {
+            alert('Olá')
+        };
+    </script>
+
+</body>
+</html>
