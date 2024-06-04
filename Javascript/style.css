@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+}
+
+.div-container {
+    background-color: rgb(206, 204, 204);
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 150px;
+}
+
+.div-grid-2 {
+    display: grid;
+    grid-template-columns: 200px 800px;
+    gap: 20px;
+}
+
+.div-grid-2  div {
+    background-color: white;
+}
+
+.div-grid-2-listaProdutos {
+    display: grid;
+    grid-template-columns: 200px 600px;
+}
