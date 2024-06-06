@@ -12,6 +12,9 @@ for (const element of products) {
                 <h4>${element.marca}</h4>
                 <p>${element.nome}</p>
                 <p>${element.preco}</p>
+                <p>Número de avaliações: ${element.numeroAvaliacoes}</p>
+                <p>Avaliação: ${element.avaliacao} ⭐</p>
+                <button>Comprar</button>
             </div>
         </div>
     `
